@@ -1,0 +1,5 @@
+    private ArrayList<Wall> walls = new ArrayList<Wall>();
+    private ArrayList<Iron> irons = new ArrayList<Iron>();
+    private ArrayList<Gold> golds = new ArrayList<Gold>();
+    private ArrayList<Item> items = new ArrayList<Item>();
+    private ArrayList<EnemyBorn> enemyBorns = new ArrayList<EnemyBorn>();
