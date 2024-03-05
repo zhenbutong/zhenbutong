@@ -1,0 +1,5 @@
+    public static final int AREA_WIDTH = 830;
+    public static final int AREA_HEIGHT = 800;
+    private ArrayList<Missle> missles = new ArrayList<Missle>();
+    private ArrayList<Tank> allTanks = new ArrayList<Tank>();
+    private ArrayList<Boom> booms = new ArrayList<Boom>();
