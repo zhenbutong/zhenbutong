@@ -1,0 +1,5 @@
+        mBgMediaPlayer = MediaPlayer.create(mContext, Const.voiceBackground);
+        mBgMediaPlayer.setLooping(true);// 循环
+        soundIds[Const.voiceShoot] = mSoundPool.load(mContext, R.raw.shoot, 1);
+        soundIds[Const.voiceHit] = mSoundPool.load(mContext, R.raw.hit, 1);
+        soundIds[Const.voiceNo] = mSoundPool.load(mContext, R.raw.no, 1);
