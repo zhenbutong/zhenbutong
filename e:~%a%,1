@@ -1,0 +1,6 @@
+:lp
+set /a a=%random%%%63,b=%random%%%%num%
+set a=!code:~%a%,1!
+if %b% equ 0 (set "b=!a!") else (set "b= ") 
+set str%m%=!str%m%!!b!
+set /a n+=1AA
