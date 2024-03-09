@@ -1,0 +1,6 @@
+@echo off&mode con cols=42 lines=20&color 02
+set m=1&set v=1
+set code==^^^&%%%^:!$#^>^<:=~*()@"'`;\|-_+?,.ghijklmnopqrstuvwxyz0123456789abcdef
+setlocal enabledelayedexpansion
+:begin
+set /a num=%random%%%40+1,num1=num,num=200/num
