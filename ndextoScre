@@ -1,0 +1,6 @@
+                paint.setStrokeWidth(3);
+                Point p1 = indextoScreen(path[i].x, path[i].y);
+                Point p2 = indextoScreen(path[i + 1].x, path[i + 1].y);
+                canvas.drawLine(p1.x + iconSize / 2, p1.y + iconSize / 2, p2.x
+                        + iconSize / 2, p2.y + iconSize / 2, paint);
+            }
