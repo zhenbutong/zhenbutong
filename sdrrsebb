@@ -1,0 +1,3 @@
+            String serverUrl = webhook + "&timestamp=" + timestamp + "&sign=" + sign;
+            DingTalkClient client = new DefaultDingTalkClient(serverUrl);
+            OapiRobotSendRequest request = new OapiRobotSendRequest()
